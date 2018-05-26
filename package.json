@@ -1,0 +1,31 @@
+{
+  "name": "kusari-gama",
+  "version": "1.0.0",
+  "description": "a simple node server to fill a little form",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joselialcosta/kusari-gama.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "keywords": [
+    "vanillaJs",
+    "express"
+  ],
+  "author": "Josélia Leite Costa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joselialcosta/kusari-gama/issues"
+  },
+  "homepage": "https://github.com/joselialcosta/kusari-gama#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  }
+}
